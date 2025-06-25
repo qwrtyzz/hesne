@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Səni Sevirəm, Xanım</title>
+    <style>
+        body {
+            background-color: #ffe6f0;
+            color: #4b0082;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); color: red; }
+            100% { transform: scale(1); }
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 10px;
+            background-color: #ff3399;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #e60073;
+        }
+    </style>
+</head>
+<body>
+    <h1>Səni Sevirəm, Xanım ❤️</h1>
+    <button onclick="alert('Mən səni həqiqətən çox sevirəm, Xanım! ❤️')">Daha Çox</button>
+</body>
+</html>
